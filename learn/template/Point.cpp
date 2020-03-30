@@ -3,9 +3,9 @@
 #include<math.h>
 using namespace std;
 class Point_1D{
-protected:
-	float x;
+
 public:
+	float x;
 	Point_1D(float p = 0.0){
 		x = p;
 	}
