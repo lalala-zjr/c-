@@ -1,6 +1,5 @@
 #include<stdio.h>
 #define MaxSize 50
-//	定义结构体
 typedef struct{
 	int data[MaxSize];
 	int length;
