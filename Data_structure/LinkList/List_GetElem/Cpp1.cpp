@@ -52,8 +52,13 @@ LNode *GetElem(LinkList L,int i){
 
 int main(){
 	LinkList L;
+	int x;
 	L = List_ToolInsert(L);
 	cout << "则单链表为：";
 	List_print(L);
+	cout << endl << "请输入需要查找的序号：";
+	cin >> x;
+	LNode *s = GetElem(L,x);
+	cout << "查找的节点为："  << s->data << endl;
 	return 0;
 }
